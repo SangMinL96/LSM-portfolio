@@ -9,9 +9,11 @@
 #home_nav {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
 }
+/*
+
+*/
 .home_title img {
   width: 150px;
   height: 130px;
@@ -31,4 +33,52 @@
   line-height: 1.7;
   font-family: "Franklin Gothic Medium";
   font-weight: 700;
+}
+/*
+
+*/
+.username_input {
+  outline: none;
+  border: none;
+  width: 15em;
+  height: 2em;
+  color: aliceblue;
+  border-bottom: 3px solid white;
+  background-color: rgba(238, 130, 238, 0);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.username_input::placeholder {
+  color: white;
+}
+/*
+
+*/
+.home_main-scroll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#scroll_icon {
+  width: 30px;
+  position: relative;
+  padding: 2em 1em;
+  background-color: rebeccapurple;
+  border-radius: 50px;
+}
+#scroll_ani {
+  position: absolute;
+
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.5rem;
+  color: white;
+}
+.home_main-scroll span:nth-child(2) {
+  display: block;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-top: 1em;
 }
