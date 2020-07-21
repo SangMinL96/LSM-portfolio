@@ -1,0 +1,57 @@
+/* 아이템 사이즈 */
+#projact img {
+  width: 100px;
+}
+#item-1 img,
+#item-2 img,
+#item-7 img,
+#item-9 img {
+  width: 350px;
+  height: 240px;
+}
+#item-3 img,
+#item-5 img {
+  width: 350px;
+  height: 470px;
+}
+#item-4 img {
+  width: 350px;
+  height: 320px;
+}
+#item-6 img {
+  width: 350px;
+  height: 210px;
+}
+#item-8 img {
+  width: 350px;
+  height: 380px;
+}
+/* 아이템 사이즈 */
+
+#projact {
+  margin: 0 auto;
+}
+.projact_container {
+  margin-top: 5em;
+  width: 1200px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+}
+.projact_column {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.projact_item {
+  cursor: pointer;
+  margin-bottom: 2em;
+}
+.projact_item img {
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.projact_item:hover {
+  transform: scale(1.02);
+  opacity: 80%;
+}

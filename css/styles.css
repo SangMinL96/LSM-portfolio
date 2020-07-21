@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap");
 @import "header.css";
 @import "proFile.css";
+@import "projact.css";
 
 * {
   box-sizing: border-box;
@@ -18,4 +19,12 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-left: 1.5em;
+  margin-bottom: 1em;
+  color: white;
+  margin-top: 5em;
 }
