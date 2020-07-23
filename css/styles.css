@@ -12,8 +12,10 @@ body {
     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
     sans-serif;
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  background-color: #a4b0be;
+  background-size: 100% 100%;
+  background-image: url(../img/aerial-photography-of-person-surfing-1556796.jpg);
 }
 
 a {
@@ -26,5 +28,5 @@ h3 {
   margin-left: 1.5em;
   margin-bottom: 1em;
   color: white;
-  margin-top: 5em;
+  margin-top: 3em;
 }
