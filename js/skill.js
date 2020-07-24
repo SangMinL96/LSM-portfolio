@@ -16,7 +16,7 @@ const itemHeight = () => {
 
 function onMove() {
   const itemRandom = itemNumber();
-  items[itemRandom].style.left = itemWidth() + "px";
-  items[itemRandom].style.top = itemHeight() + "px";
+  items[itemRandom].style.left = `${itemWidth()}px`;
+  items[itemRandom].style.top = `${itemHeight()}px`;
 }
 setInterval(onMove, 80);
