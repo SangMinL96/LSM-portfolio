@@ -3,6 +3,7 @@
 @import "header.css";
 @import "proFile.css";
 @import "projact.css";
+@import "skill.css";
 
 * {
   box-sizing: border-box;
@@ -15,7 +16,7 @@ body {
   justify-content: center;
   flex-direction: column;
   background-size: 100% 100%;
-  background-image: url(../img/aerial-photography-of-person-surfing-1556796.jpg);
+  background-image: url(../img/main.jpg);
 }
 
 a {
@@ -23,10 +24,27 @@ a {
   text-decoration: none;
 }
 h3 {
+  display: inline-block;
   font-size: 2.5rem;
   font-weight: 700;
   margin-left: 1.5em;
   margin-bottom: 1em;
+  padding-bottom: 0.5em;
   color: white;
   margin-top: 3em;
+  border-bottom: 2px solid whitesmoke;
+}
+b {
+  font-size: 1.2rem;
+  margin-right: 0.5em;
+}
+h5 {
+  text-align: center;
+  position: absolute;
+  width: 400px;
+  top: -40px;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  font-size: 1.2rem;
+  font-weight: 700;
 }

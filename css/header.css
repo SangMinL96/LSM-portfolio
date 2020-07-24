@@ -5,7 +5,6 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-image: url(../away-5348739_1920.jpg);
 }
 #home_nav {
   display: flex;
@@ -20,8 +19,9 @@
   height: 130px;
 }
 .home_nav-list {
-  color: whitesmoke;
+  color: #393e46;
   font-size: 1.3rem;
+  font-weight: 700;
 }
 .home_nav-list span {
   margin-left: 2em;
@@ -29,7 +29,7 @@
 }
 .home_main-username {
   text-align: center;
-  color: #f8f9fa;
+  color: #3c4048;
   font-size: 2rem;
   line-height: 1.7;
   font-family: "Franklin Gothic Medium";
@@ -43,14 +43,14 @@
   border: none;
   width: 15em;
   height: 2em;
-  color: aliceblue;
-  border-bottom: 3px solid white;
+  color: #3c4048;
+  border-bottom: 3px solid #3c4048;
   background-color: rgba(238, 130, 238, 0);
   font-size: 1.2rem;
   font-weight: 700;
 }
 .username_input::placeholder {
-  color: white;
+  color: #3c4048;
 }
 /*
 
@@ -64,7 +64,7 @@
   width: 30px;
   position: relative;
   padding: 2em 1em;
-  background-color: rebeccapurple;
+  background-color: #3c4048;
   border-radius: 50px;
 }
 #scroll_ani {
