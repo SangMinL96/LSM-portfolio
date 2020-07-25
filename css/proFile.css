@@ -18,12 +18,22 @@
 }
 .profile_link i {
   font-size: 4rem;
-  color: #ffffff;
+  color: #3c4048;
   margin-bottom: 0.1em;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateY(360deg);
+  }
 }
 .profile_link span {
   font-size: 1.5rem;
-  color: white;
+  color: #3c4048;
 }
 .profile_img {
   display: flex;
@@ -40,7 +50,7 @@
   justify-content: center;
   line-height: 3;
   margin-left: 15em;
-  color: rgb(7, 9, 90);
+  color: #3c4048;
   font-size: 1.2rem;
   font-weight: 700;
   border-top: 10px solid #22e4ebd5;

@@ -1,5 +1,6 @@
 const items = document.querySelectorAll(".item_name");
-
+const itemContainer = document.querySelectorAll(".skill_column");
+console.dir(itemContainer[0]);
 const itemNumber = () => {
   const Num = Math.floor(Math.random() * items.length);
   return Num;
@@ -14,9 +15,14 @@ const itemHeight = () => {
   return y;
 };
 
-function onMove() {
+const onMove = () => {
   const itemRandom = itemNumber();
   items[itemRandom].style.left = `${itemWidth()}px`;
   items[itemRandom].style.top = `${itemHeight()}px`;
-}
-setInterval(onMove, 80);
+};
+const init = () => {
+  if (itemContainer[0].clientWidth > 300) {
+    setInterval(onMove, 60);
+  }
+};
+init();

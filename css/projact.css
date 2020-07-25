@@ -31,6 +31,18 @@
 #projact {
   margin: 0 auto;
 }
+#item-1 {
+  animation: ddd 0.8s ease-in 1;
+}
+@keyframes ddd {
+  0% {
+    transform: translateX(-200px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
 .projact_container {
   margin-top: 5em;
   width: 1200px;
@@ -38,6 +50,12 @@
   display: flex;
   justify-content: center;
   position: relative;
+}
+.projact_container .projact_column:nth-child(1) {
+  display: flex;
+}
+.projact_container .projact_column:nth-child(1) .projact_list:nth-child(2) {
+  margin-left: 2em;
 }
 .projact_column {
   margin-left: 1em;
