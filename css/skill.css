@@ -1,9 +1,10 @@
 #skill {
   margin: 0 auto;
+  height: 900px;
 }
 .skilContainer {
   width: 1200px;
-  height: 900px;
+  height: 600px;
 }
 .skill_set {
   margin-top: 5em;
@@ -14,18 +15,21 @@
   position: relative;
   width: 500px;
   height: 500px;
-  border: 3px solid rgb(100, 237, 255);
+  border: 3px solid #e84393;
 
   border-radius: 50%;
   margin-left: 3em;
   margin-right: 3em;
+}
+.skill_column:nth-child(2) {
+  border: 3px solid rgb(100, 237, 255);
 }
 .item_name {
   position: absolute;
   top: 50px;
   left: 200px;
   transition: 2s all ease;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: 700;
   padding: 3px 15px;
 }

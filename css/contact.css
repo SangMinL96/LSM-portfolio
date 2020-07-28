@@ -1,0 +1,54 @@
+#contact {
+  margin: 0 auto;
+  height: 900px;
+}
+
+.contactContainer {
+  width: 1200px;
+  height: 600px;
+  border-radius: 30px;
+  background-color: rgba(255, 203, 203, 0.822);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#gform {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#gform input {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  outline: none;
+  width: 300px;
+  height: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 30px;
+  color: black;
+  font-size: 1.1rem;
+  box-shadow: 1px 5px 3px #12cbc4;
+}
+#gform input::placeholder {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: black;
+}
+#gform input:nth-child(4) {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#contact_text {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 3;
+}
+
+#submit_btn:active {
+  transform: translateY(3px);
+  box-shadow: none;
+  box-shadow: 1px 2px 3px #12cbc4;
+}

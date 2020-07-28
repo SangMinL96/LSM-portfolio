@@ -18,17 +18,20 @@
           <img src="img/logo.png" alt="로고" />
         </h1>
         <div class="home_nav-list">
-          <span>Home</span>
-          <span>Profile</span>
-          <span>Skill</span>
-          <span>Contact</span>
+          <span class="nav_btn">AboutMe</span>
+          <span class="nav_btn">Projact</span>
+          <span class="nav_btn">Skill</span>
+          <span class="nav_btn">Contact</span>
+          <span id="upBtn" class="nav_btn">UP</span>
+          
         </div>
       </header>
-      <h2 class="home_main-username ani_username">
-        이상민님 환영합니다!<br />저의 포트폴리오를 <br />재미있게 봐주시면
-        감사하겠습니다
+      <h2 class="home_main-username ani_username">    
       </h2>
+      <form class="username_form">
       <input class="username_input" type="text" placeholder="User Name" />
+    </form>
+    <img id="userNameImg" src="img/insa.png" alt="">
       <div class="home_main-scroll">
         <span id="scroll_icon">
           <span id="scroll_ani"><i class="fas fa-circle"></i></span>
@@ -190,9 +193,9 @@
       </div>
     </section>
     <section id="skill">
-      
+      <h3>SKILL</h3>
       <div class="skilContainer">
-        <h3>SKILL</h3>
+        
         <div class="skill_set">
         <div class="skill_column">
           <h5>프로젝트 적용 가능한 스킬</h5>
@@ -221,14 +224,33 @@
         </div>
       </div>
       </div>
-      <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbyKJgfwSyo_8Y9Ancn00TUpxIblzdiNnqpb9Y0efwSSHLj6LbY/exec">
-      <input name="name" type="text">
-      <input name="message" type="text">
-      <input name="email" type="text">
-      <input type="submit" value="버튼">
-      </form>
-      <script src="js/skill.js"></script>
+     
+   
+      
       
     </section>
+    <section id="contact">
+      <h3>CONTACT</h3>
+      <div class="contactContainer">
+        <div class="contactColumn">
+          <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbyKJgfwSyo_8Y9Ancn00TUpxIblzdiNnqpb9Y0efwSSHLj6LbY/exec">
+            <input class="" placeholder="Name" name="name" type="text">
+            <input placeholder="Message" name="message" type="text">
+            <input placeholder="Email" name="email" type="text">
+            <input id="submit_btn" type="submit" value="Submit">
+            
+        </div>
+        <div class="contactColumn">
+          <p id="contact_text" align="center">
+            저의 포트폴리오를봐주셔서 감사드립니다.<br> 왼쪽에 이름 ,메시지,이메일을 작성후 감상평을<br>
+             간단히 보내주시면 감사하겠습니다.<br>(아쉬운점과 고쳐야할 부분도 부탁드려요!!) <br>부족한점이 많지만 꾸준히 공부를 
+            하고있고 <br>앞으로 개인프로젝트를 계속 만들어서 프로젝트 섹션에 추가할 예정이니<br> 자주 찾아와 구경해주시면 감사하겠습니다!!
+          
+          </p>
+        </div>
+      </div>
+    </section>
+    <script src="js/skill.js"></script>
+    <script src="js/header.js"></script>
   </body>
 </html>

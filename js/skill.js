@@ -1,6 +1,6 @@
 const items = document.querySelectorAll(".item_name");
 const itemContainer = document.querySelectorAll(".skill_column");
-console.dir(itemContainer[0]);
+
 const itemNumber = () => {
   const Num = Math.floor(Math.random() * items.length);
   return Num;
