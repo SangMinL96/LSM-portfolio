@@ -11,36 +11,36 @@ const scrollMove = (navTarget) => {
   const scrollInterVal = setInterval(() => {
     switch (navTarget) {
       case "AboutMe":
-        if (docValue.scrollTop <= 1050) {
-          return window.scrollBy(0, +55);
+        if (docValue.scrollTop <= 900) {
+          return window.scrollBy(0, +200);
         } else {
           return clearInterval(scrollInterVal);
         }
         break;
       case "Projact":
-        if (docValue.scrollTop <= 2050) {
-          return window.scrollBy(0, +55);
+        if (docValue.scrollTop <= 1850) {
+          return window.scrollBy(0, +200);
         } else {
           return clearInterval(scrollInterVal);
         }
         break;
       case "Skill":
-        if (docValue.scrollTop <= 3550) {
-          return window.scrollBy(0, +55);
+        if (docValue.scrollTop <= 3320) {
+          return window.scrollBy(0, +200);
         } else {
           return clearInterval(scrollInterVal);
         }
         break;
       case "Contact":
-        if (docValue.scrollTop <= 4300) {
-          return window.scrollBy(0, +50);
+        if (docValue.scrollTop <= 4000) {
+          return window.scrollBy(0, +200);
         } else {
           return clearInterval(scrollInterVal);
         }
         break;
       case "UP":
         if (docValue.scrollTop >= 1) {
-          return window.scrollBy(0, -50);
+          return window.scrollBy(0, -200);
         } else {
           return clearInterval(scrollInterVal);
         }

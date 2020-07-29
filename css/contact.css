@@ -4,13 +4,16 @@
 }
 
 .contactContainer {
-  width: 1200px;
-  height: 600px;
+  width: 100%;
+  padding-left: 8em;
+  padding-right: 8em;
+  height: 70%;
   border-radius: 30px;
   background-color: rgba(255, 203, 203, 0.822);
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 3em;
 }
 #gform {
   display: flex;

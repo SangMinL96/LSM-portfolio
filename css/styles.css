@@ -5,6 +5,7 @@
 @import "projact.css";
 @import "skill.css";
 @import "contact.css";
+@import "media.css";
 
 * {
   box-sizing: border-box;
@@ -44,7 +45,7 @@ h5 {
   text-align: center;
   position: absolute;
   width: 400px;
-  top: -60px;
+  top: -70px;
   left: 50%;
   transform: translate(-50%, 50%);
   font-size: 1.3rem;

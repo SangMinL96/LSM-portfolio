@@ -20,6 +20,17 @@ window.addEventListener("scroll", () => {
     centerMove[2].classList.add("center");
     rightMove[2].classList.add("right");
   }
+  if (scrollpos < 1400) {
+    leftMove.forEach((left) => {
+      left.classList.remove("left");
+    });
+    centerMove.forEach((center) => {
+      center.classList.remove("center");
+    });
+    rightMove.forEach((right) => {
+      right.classList.remove("right");
+    });
+  }
 });
 //
 //
