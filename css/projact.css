@@ -76,7 +76,7 @@
   width: 93%;
   height: 70%;
   position: absolute;
-  background-color: #495057ef;
+  background-color: #74baffe1;
 
   border-radius: 30px;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.1);
@@ -103,7 +103,7 @@
   text-align: center;
 }
 .item_inside p a {
-  color: rgb(0, 255, 242);
+  color: saddlebrown;
   font-size: 2.5rem;
 }
 .skil_icon {
